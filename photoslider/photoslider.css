@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: content-box;
+}
+
+#titulo{
+padding: 20px;
+font-size: 30px;
+font-weight: 700;
+color: rgb(206, 194, 28);
+justify-content: center;
+text-align: center;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.boton{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    background-color: rgb(243, 112, 5);
+   display: flex;
+   position: absolute;
+    margin-top: 10%;
+    padding: 20px;
+    border-color: aliceblue;
+}
+
+.cuadroImagen{
+    max-width: 600px;
+    margin: auto;
+    max-width: 600px;
+}
